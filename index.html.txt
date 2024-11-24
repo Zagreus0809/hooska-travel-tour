@@ -48,7 +48,6 @@
     <footer>
         <p>&copy; 2024 Hotel & Tour. All rights reserved.</p>
     </footer>
-    <button id="chatbot">💬</button>
     <script src="script.js"></script>
 </body>
 </html>
