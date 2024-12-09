@@ -1,16 +1,9 @@
-//TODO 1: GET YOUR OPENAI API KEY from https://beta.openai.com/account/api-keys
 
-//TODO 2a: RUN THE FOLLOWING COMMAND IN YOUR DEVELOPER CONSOLE FIRST:
-//         localStorage.setItem("openAI", "YOUR_OPENAI_API_KEY");
 const API_KEY = localStorage.getItem("openAI");
-
-//TODO 2b: OPTIONALLY, YOU CAN DELETE THE PREVIOUS LINE AND HARD-CODE YOUR API KEY WITH:
-//const API_KEY = "YOUR_OPENAI_API_KEY";
 
 const MIN_CHARS = 0;
 let userSpan, charSpan;
 
-//Get the Light or Dark stylesheet depending on time of day.
 getStylesheet();
 
 document.addEventListener("DOMContentLoaded", function () {
